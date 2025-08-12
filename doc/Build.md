@@ -2,7 +2,7 @@
 libcap, libseccomp, libpthread.      
 # Build:
 ```
-git clone https://github.com/Moe-hacker/ruri
+git clone https://github.com/George-Seven/ruri
 cd ruri
 aclocal
 autoconf
@@ -26,7 +26,7 @@ Note: `--enable-coreonly` will auto enable `--disable-libseccomp --disable-libca
 
 # Build using CMake
 ```
-git clone https://github.com/Moe-hacker/ruri
+git clone https://github.com/George-Seven/ruri
 cd ruri
 cmake .
 make

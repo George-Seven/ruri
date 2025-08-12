@@ -236,7 +236,7 @@ struct RURI_ID_MAP {
 		cfprintf(stderr, "{base}%s{clear}\n", "      ⠁⠁");                                           \
 		cfprintf(stderr, "{base}%s{clear}\n", "RURI ERROR MESSAGE");                                 \
 		cfprintf(stderr, "{base}%s{clear}\n", "If you think something is wrong, please report at:"); \
-		cfprintf(stderr, "\033[4m{base}%s{clear}\n", "https://github.com/Moe-hacker/ruri/issues");   \
+		cfprintf(stderr, "\033[4m{base}%s{clear}\n", "https://github.com/RuriOSS/ruri/issues");   \
 		exit(114);                                                                                   \
 	}
 // Log system.

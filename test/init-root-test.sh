@@ -34,7 +34,7 @@ pass_subtest
 export SUBTEST_NO=3
 export SUBTEST_DESCRIPTION="Get rootfs.tar.xz"
 show_subtest_description
-git clone https://github.com/moe-hacker/rootfstool
+git clone https://github.com/RuriOSS/rootfstool
 check_if_succeed $?
 rootfstool/rootfstool d -d alpine -v edge
 check_if_succeed $?

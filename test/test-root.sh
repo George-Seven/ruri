@@ -25,7 +25,7 @@ done
 
 cd ${TMPDIR}
 rm ruri
-wget -O - https://github.com/Moe-hacker/ruri/raw/refs/heads/main/get-ruri.sh | bash -s -- -s
+wget -O - https://github.com/George-Seven/ruri/raw/refs/heads/main/get-ruri.sh | bash -s -- -s
 check_if_succeed $?
 
 # Check for released version

@@ -15,7 +15,7 @@ done
 
 mkdir output output2 output3
 
-git clone --depth 1 https://github.com/moe-hacker/ruri.git
+git clone --depth 1 https://github.com/George-Seven/ruri.git
 cd ruri
 ./autogen.sh
 ./configure --enable-static

@@ -1,4 +1,4 @@
-![](https://github.com/rurioss/ruri/raw/main/logo/logo.png)
+![](https://github.com/George-Seven/ruri/raw/main/logo/logo.png)
 
 ---
 
@@ -6,7 +6,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14021121.svg)](https://doi.org/10.5281/zenodo.14021121) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RuriOSS/ruri)
 ![](https://img.shields.io/badge/backward-compatible-00d000?style=flat&labelColor=gray)
-[![Build release](https://github.com/RuriOSS/ruri/actions/workflows/build.yml/badge.svg)](https://github.com/RuriOSS/ruri/actions/workflows/build.yml) [![Run autotest](https://github.com/RuriOSS/ruri/actions/workflows/test.yml/badge.svg)](https://github.com/RuriOSS/ruri/actions/workflows/test.yml)
+[![Build release](https://github.com/George-Seven/ruri/actions/workflows/build.yml/badge.svg)](https://github.com/George-Seven/ruri/actions/workflows/build.yml) [![Run autotest](https://github.com/George-Seven/ruri/actions/workflows/test.yml/badge.svg)](https://github.com/George-Seven/ruri/actions/workflows/test.yml)
 
 # Important Notice:
 It's fully recommended to drop CAP_SYS_CHROOT or enable unshare, chroot container without these options is not secure at all!
@@ -27,7 +27,7 @@ For production, I fully recommand you to use tools like [crun](https://github.co
 
 # Bug reporting
 
-If you think something does not work as expected, please [open a new isssue](https://github.com/rurioss/ruri/issues)
+If you think something does not work as expected, please [open a new isssue](https://github.com/RuriOSS/ruri/issues)
 
 # WIP wiki
 
@@ -45,7 +45,7 @@ See [Asking LLM](doc/askllm.md) for how to ask LLM about ruri.
 
 # The enhanced version
 
-[rurima](https://github.com/Moe-hacker/rurima) was planned to be the ruri manager, but since it now has a full integration of ruri, you can use it as an enhanced version of ruri.
+[rurima](https://github.com/RuriOSS/rurima) was planned to be the ruri manager, but since it now has a full integration of ruri, you can use it as an enhanced version of ruri.
 Note that rurima is still WIP.
 
 # Highlights
@@ -72,13 +72,13 @@ Note that rurima is still WIP.
   - Can replace `chroot` directly; easy to use without learning every option.
 
   <p align="center">
-  <img src="https://github.com/Moe-hacker/ruri/raw/main/logo/rurifetch.png" alt="" style="width:75%;align: center;">
+  <img src="https://github.com/George-Seven/ruri/raw/main/logo/rurifetch.png" alt="" style="width:75%;align: center;">
   </p>
 
 
 # Get ruri
 
-You can get ruri binary (statically linked) for arm64, armv7, armhf, riscv64, i386, loong64, s390x, ppc64le and x86_64 devices in [Release](https://github.com/Moe-hacker/ruri/releases/).
+You can get ruri binary (statically linked) for arm64, armv7, armhf, riscv64, i386, loong64, s390x, ppc64le and x86_64 devices in [Release](https://github.com/George-Seven/ruri/releases/).
 Or you can run the following command to download ruri automatically
 
 ```sh
@@ -103,7 +103,7 @@ Ruri provides statically linked binary, but if you want to build it yourself, se
 
 ruri is ready to integrate into other projects, with the MIT License, it is compatiblte to be redistribute with almost all license, or commercial/closed source.
 An example is ruri's own build action , it runs containers for 9 different architectures to build itself, that shows its broad application prospects.
-Another example is [rurima](https://github.com/Moe-hacker/rurima), I made ruri built-in for it, so it can be run as a subcommand.
+Another example is [rurima](https://github.com/RuriOSS/rurima), I made ruri built-in for it, so it can be run as a subcommand.
 See [Integration](doc/Integration.md) for a guide to integrate ruri into your projects.
 
 # Behavior of rurienv
